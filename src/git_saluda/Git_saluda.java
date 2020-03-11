@@ -17,12 +17,14 @@ public class Git_saluda {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String nombre;
+        String nombre,edad;
         Scanner sc = new Scanner(System.in);
         nombre = sc.nextLine();
         System.out.println("Introduzca nombre: ");
         nombre = sc.nextLine();
-        System.out.println("Hola "+nombre);
+        System.out.println("Introduzca la edad: ");
+        edad = sc.nextLine();
+        System.out.println("Hola "+nombre+" tienes "+edad+" años");
     }
     
 }
